@@ -1,2 +1,3 @@
-# mi_web
-mi_web
+Codeigniter Simplicity
+=============
+http://www.grocerycrud.com/codeigniter-simplicity

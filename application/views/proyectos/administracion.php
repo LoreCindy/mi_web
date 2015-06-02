@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Administracion proyectos GIT_HUB- Sourcezilla</title>
+	<title>Administracion proyectos GITHUB- Sourcezilla</title>
 <?php 
 foreach($css_files as $file): ?>
 	<link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />

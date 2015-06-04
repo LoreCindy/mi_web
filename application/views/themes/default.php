@@ -125,8 +125,8 @@
           <a class="brand" href="<?php echo site_url(); ?>">&nbsp;&nbsp;Your Brand</a>
           <div style="height: 0px;" class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="<?php echo site_url(); ?>">Home</a></li>
-			  <li><a href="<?php echo site_url('Proyectos/administracion'); ?>">Example 1</a></li>
+              <li class="active"><a href="<?php echo site_url(); ?>">Inicio</a></li>
+			  <li><a href="<?php echo site_url('estudioprevio'); ?>">Estudio Previo</a></li>
               <li><a href="<?php echo site_url('example/example_2'); ?>">Example 2</a></li>
               <li><a href="<?php echo site_url('example/example_3'); ?>">Example 3</a></li>
               <li><a href="<?php echo site_url('example/example_4'); ?>">Example 4</a></li>

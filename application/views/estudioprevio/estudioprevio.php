@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Administracion estudios previos - Sourcezilla</title>
+       
 <?php 
 foreach($css_files as $file): ?>
 	<link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
@@ -28,9 +29,14 @@ a:hover
 </style>
 </head>
 <body>
-<center><h1>Administraciòn de Estudios previos</h1></center>
-    <div>
+    <div class="container">
+        <div class="row">
+	    <h1>Administraciòn de Estudios previos</h1>
+        
+	<div>
 		<?php echo $output; ?>
+	</div>		    </div>
+      <hr>
     </div>
 </body>
 </html>

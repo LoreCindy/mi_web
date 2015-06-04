@@ -48,7 +48,7 @@ class EstudioPrevio extends CI_Controller {
                         $crud->set_primary_key('id_estudioPrevio','estudio_previo');
                         
                         /* aqui indicamos la llave primaria de la tabla relacion */
-                      $crud -> set_primary_key ( 'id_modalidad' , 'modalidad_seleccion' ) ;
+                      $crud -> set_primary_key ('id_modalidad' , 'modalidad_seleccion') ;
                         
                         /* aqui indicamos las relaciones de la tabla modalidad de seleccion*/
                       $crud -> set_relation ( 'id_modalidadSeleccion' , 'modalidad_seleccion' , ' nombre_modalidad' ) ;
@@ -65,7 +65,7 @@ class EstudioPrevio extends CI_Controller {
                         
                         
                        /* aqui indicamos la llave primaria de la tabla relacion */
-                        $crud->set_primary_key('id_listachequeo_revisioestudio','listachequeo_revisionestudiop');
+                       $crud->set_primary_key('id_listachequeorevisioestudio','listachequeo_revisionestudiop');
                         
                         /* aqui indicamos las relaciones de la tabla proyecto*/
                         $crud -> set_relation ( 'id_listaChequeo_RevisionEstudioP' , 'listachequeo_revisionestudiop' , 'nombre_supervisor' ) ;

@@ -30,19 +30,12 @@ class Proyectos extends CI_Controller {
 	}
 
 
-	function index() 
-	{
-		/*
-		 * Mandamos todo lo que llegue a la funcion
-		 * administracion().
-		 **/
-		redirect('proyectos/administracion');
-	}
+	
 
 	/*
 	 * 
  	 **/
-	function administracion()
+	function index()
 	{
 		try{
 

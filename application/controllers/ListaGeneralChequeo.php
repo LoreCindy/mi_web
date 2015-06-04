@@ -16,21 +16,22 @@ class ListaGeneralChequeo extends CI_Controller {
 
 		/* Añadimos el helper al controlador */
 		$this->load->helper('url');
+	     $this->_init();
 	}
-
-	function index() 
+        
+        private function _init()
 	{
-		/*
-		 * Mandamos todo lo que llegue a la funcion
-		 * administracion().
-		 **/
-		redirect('listageneralchequeo/listageneralchequeo');
+		$this->output->set_template('default');
+
+		$this->load->js('assets/themes/default/js/jquery-1.9.1.min.js');
+		$this->load->js('assets/themes/default/hero_files/bootstrap-transition.js');
+		$this->load->js('assets/themes/default/hero_files/bootstrap-collapse.js');
 	}
 
 	/*
 	 * 
  	 **/
-	function listageneralchequeo()
+	function index()
 	{
 		try{
 

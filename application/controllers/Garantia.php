@@ -59,7 +59,7 @@ class Garantia extends CI_Controller {
                        $crud->set_primary_key('id_tipo','tipo_garantia');
                         
                         /* aqui indicamos las relaciones de la tabla Tipo contratación*/
-                        $crud -> set_relation ( 'id_tipoGarantia' , 'tipo_garantia' , 'nombre_tipo' ) ;
+                        $crud -> set_relation ('id_tipoGarantia' , 'tipo_garantia' , 'nombre_tipo' ) ;
                         
                         
                          /* aqui indicamos la llave primaria de la tabla relacion revision legalizacion*/
@@ -71,15 +71,18 @@ class Garantia extends CI_Controller {
                                                                        
 			/* Aqui le decimos a grocery que estos campos son obligatorios */
 			$crud->required_fields(
-				'id_garantia',
-				'descripcion_documento',
-                                'aseguradora', 
-                                 'valor',
-                                 'listaChequeo_legalizacionContrato', 
-                                 'id_tipoGarantia' ,
+				'id_garantia', 
+                                'descripcion_documento', 
+                                'aseguradora',
+                                'valor', 
+                                'listaChequeo_legalizacionContrato', 
+                                'id_tipoGarantia', 
                                 'numeroGarantia', 
+                                'tiempo_año',
                                 'porcentaje', 
-                                'tiempo_año'
+                                'vigencia', 
+                                'aplica'
+                                
                                 
                                
                                
@@ -87,15 +90,20 @@ class Garantia extends CI_Controller {
 
 			/* Aqui le indicamos que campos deseamos mostrar */
 			$crud->columns(
-				'id_garantia',
-				'descripcion_documento',
-                                'aseguradora', 
-                                 'valor',
-                                 'listaChequeo_legalizacionContrato', 
-                                 'id_tipoGarantia' ,
+                                'id_garantia', 
+                                'descripcion_documento', 
+                                'aseguradora',
+                                'valor', 
+                                'listaChequeo_legalizacionContrato', 
+                                'id_tipoGarantia', 
                                 'numeroGarantia', 
+                                'tiempo_año',
                                 'porcentaje', 
-                                'tiempo_año'
+                                'vigencia', 
+                                'aplica'
+                                
+                                
+
 			);
 			
 			/* Generamos la tabla */

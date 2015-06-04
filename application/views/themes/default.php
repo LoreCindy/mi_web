@@ -122,12 +122,13 @@
             <span class="icon-bar"></span>
           </a>
           <img src="<?php echo base_url(); ?>assets/themes/default/images/logo.png" style="float:left;margin-top:5px;z-index:5" alt="logo"/>
-          <a class="brand" href="<?php echo site_url(); ?>">&nbsp;&nbsp;Your Brand</a>
+          <a class="brand" href="<?php echo site_url(); ?>">&nbsp;&nbsp;Contratación</a>
           <div style="height: 0px;" class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="<?php echo site_url(); ?>">Inicio</a></li>
-			  <li><a href="<?php echo site_url('estudioprevio'); ?>">Estudio Previo</a></li>
-              <li><a href="<?php echo site_url('example/example_2'); ?>">Example 2</a></li>
+			  <li><a href="<?php echo site_url('proyectos'); ?>">Proyectos</a></li>
+                            <li><a href="<?php echo site_url('estudioPrevio'); ?>">Estudio Previo</a></li>
+              <li><a href="<?php echo site_url('listaGeneralChequeo'); ?>">Lista de Chequeo</a></li>
               <li><a href="<?php echo site_url('example/example_3'); ?>">Example 3</a></li>
               <li><a href="<?php echo site_url('example/example_4'); ?>">Example 4</a></li>
             </ul>

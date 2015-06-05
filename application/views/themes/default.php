@@ -129,6 +129,9 @@
 			  <li><a href="<?php echo site_url('proyectos'); ?>">Proyectos</a></li>
                             <li><a href="<?php echo site_url('estudioPrevio'); ?>">Estudio Previo</a></li>
               <li><a href="<?php echo site_url('listaGeneralChequeo'); ?>">Lista de Chequeo</a></li>
+              <li><a href="<?php echo site_url('datos_generales'); ?>">Datos</a></li>
+               <li><a href="<?php echo site_url('formato_lista'); ?>">formato lista</a></li>
+               <li><a href="<?php echo site_url('formato_legalizacion'); ?>">formato legalizacion</a></li>
               <li><a href="<?php echo site_url('example/example_3'); ?>">Example 3</a></li>
               <li><a href="<?php echo site_url('example/example_4'); ?>">Example 4</a></li>
             </ul>
